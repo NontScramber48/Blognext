@@ -57,10 +57,10 @@ export default function Example() {
           <article className="flex max-w-xl flex-col items-start justify-between ">
             {" "}
             <Image
-              className="absolute inset-0 object-cover shadow-xl mx-auto"
-              src=""
+              className="absolute inset-0 object-cover shadow-xl mx-auto mt-12"
+              src="/assets/images/business/B2B.png"
               alt=""
-              width={300}
+              width={600}
               height={400}
             />
           </article>
@@ -85,10 +85,10 @@ export default function Example() {
           <article className="flex max-w-xl flex-col items-start justify-between ">
             {" "}
             <Image
-              className="absolute inset-0 object-cover shadow-xl mx-auto"
-              src=""
+              className="absolute inset-0 object-cover shadow-xl mx-auto mt-12"
+              src="/assets/images/business/B2C.png"
               alt=""
-              width={300}
+              width={600}
               height={400}
             />
           </article>
@@ -114,10 +114,10 @@ export default function Example() {
           <article className="flex max-w-xl flex-col items-start justify-between">
             {" "}
             <Image
-              className="absolute inset-0 object-cover shadow-xl mx-auto"
-              src=""
+              className="absolute inset-0 object-cover shadow-xl mx-auto mt-12"
+              src="/assets/images/business/B2B2C.png"
               alt=""
-              width={300}
+              width={600}
               height={400}
             />
           </article>
@@ -144,10 +144,10 @@ export default function Example() {
           <article className="flex max-w-xl flex-col items-start justify-between ">
             {" "}
             <Image
-              className="absolute inset-0 object-cover shadow-xl mx-auto"
-              src=""
+              className="absolute inset-0 object-cover shadow-xl mx-auto mt-12"
+              src="/assets/images/business/D2C.png"
               alt=""
-              width={300}
+              width={600}
               height={400}
             />
           </article>
@@ -176,10 +176,10 @@ export default function Example() {
           <article className="flex max-w-xl flex-col items-start justify-between">
             {" "}
             <Image
-              className="absolute inset-0 object-cover shadow-xl mx-auto"
-              src=""
+              className="absolute inset-0 object-cover shadow-xl mx-auto mt-12"
+              src="/assets/images/business/M2C.png"
               alt=""
-              width={300}
+              width={600}
               height={400}
             />
           </article>
@@ -219,10 +219,10 @@ export default function Example() {
             {" "}
             <Image
               className="absolute inset-0 object-cover shadow-xl mx-auto"
-              src=""
+              src="/assets/images/business/B2B.png"
               alt=""
-              width={300}
-              height={400}
+              width={500}
+              height={300}
             />
           </article>
         </div>
@@ -231,10 +231,10 @@ export default function Example() {
             {" "}
             <Image
               className="absolute inset-0 object-cover shadow-xl mx-auto"
-              src=""
+              src="/assets/images/business/B2C.png"
               alt=""
-              width={300}
-              height={400}
+              width={500}
+              height={300}
             />
           </article>
           <article className="flex max-w-xl flex-col items-start justify-between"></article>{" "}
@@ -276,34 +276,26 @@ export default function Example() {
             {" "}
             <Image
               className="absolute inset-0 object-cover shadow-xl mx-auto"
-              src=""
+              src="/assets/images/business/B2B2C.png"
               alt=""
-              width={300}
-              height={400}
+              width={500}
+              height={300}
             />
           </article>
         </div>
         <div className="mx-auto mt-2 grid max-w-2xl grid-cols-1 gap-x-8  border-t border-gray-200 pt-10  lg:mx-0 lg:max-w-none lg:grid-cols-3">
+     
           <article className="flex max-w-xl flex-col items-start justify-between">
             {" "}
             <Image
               className="absolute inset-0 object-cover shadow-xl mx-auto"
-              src=""
+              src="/assets/images/business/D2C.png"
               alt=""
-              width={300}
-              height={400}
-            />
-          </article>
-          <article className="flex max-w-xl flex-col items-start justify-between">
-            {" "}
-            <Image
-              className="absolute inset-0 object-cover shadow-xl mx-auto"
-              src=""
-              alt=""
-              width={300}
-              height={400}
+              width={500}
+              height={300}
             />
           </article>{" "}
+          <article className="flex max-w-xl flex-col items-start justify-between"></article>
           <article className="flex max-w-xl flex-col items-start justify-between">
             <div className="group relative">
               <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
@@ -347,10 +339,10 @@ export default function Example() {
             {" "}
             <Image
               className="absolute inset-0 object-cover shadow-xl mx-auto"
-              src=""
+              src="/assets/images/business/M2C.png"
               alt=""
-              width={300}
-              height={400}
+              width={500}
+              height={300}
             />
           </article>
         </div>
