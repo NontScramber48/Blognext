@@ -41,7 +41,7 @@ export default function Example() {
           <article className="flex max-w-xl flex-col items-start justify-between">
             <div className="group relative mt-12">
               <h3 className="mt-3 text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
-                Business-to-Business
+                Business to Business
               </h3>
               <div className="flex items-center gap-x-4 text-xs">
                 <h1 className="text-gray-500"> (B2B)</h1>
@@ -69,7 +69,7 @@ export default function Example() {
           <article className="flex max-w-xl flex-col items-start justify-between">
             <div className="group relative mt-12">
               <h3 className="mt-3 text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
-                Business-to-Customer
+                Business to Customer
               </h3>{" "}
               <div className="flex items-center gap-x-4 text-xs">
                 <h1 className="text-gray-500"> (B2C)</h1>
@@ -97,7 +97,7 @@ export default function Example() {
           <article className="flex max-w-xl flex-col items-start justify-between">
             <div className="group relative">
               <h3 className="mt-3 text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
-                Business-to-Business-to-Customer
+                Business to Business to Customer
               </h3>
               <div className="flex items-center gap-x-4 text-xs">
                 <h1 className="text-gray-500">(B2B2C)</h1>
@@ -202,7 +202,7 @@ export default function Example() {
           <article className="flex max-w-xl flex-col items-start justify-between">
             <div className="group relative mt-12">
               <h3 className="mt-3 text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
-                Business-to-Business
+                Business to Business
               </h3>
               <div className="flex items-center gap-x-4 text-xs">
                 <h1 className="text-gray-500"> (B2B)</h1>
@@ -241,7 +241,7 @@ export default function Example() {
           <article className="flex max-w-xl flex-col items-start justify-between">
             <div className="group relative mt-12">
               <h3 className="mt-3 text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
-                Business-to-Customer
+                Business to Customer
               </h3>{" "}
               <div className="flex items-center gap-x-4 text-xs">
                 <h1 className="text-gray-500"> (B2C)</h1>
@@ -258,7 +258,7 @@ export default function Example() {
           <article className="flex max-w-xl flex-col items-start justify-between">
             <div className="group relative">
               <h3 className="mt-3 text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
-                Business-to-Business-to-Customer
+                Business to Business to Customer
               </h3>
               <div className="flex items-center gap-x-4 text-xs">
                 <h1 className="text-gray-500">(B2B2C)</h1>
