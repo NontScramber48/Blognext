@@ -239,7 +239,7 @@ export default function Example() {
           </article>
           <article className="flex max-w-xl flex-col items-start justify-between"></article>{" "}
           <article className="flex max-w-xl flex-col items-start justify-between col-span-2">
-            <div className="group relative mt-12">
+            <div className="group relative my-auto">
               <h3 className="mt-3 text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
                 Business to Customer
               </h3>{" "}
@@ -256,7 +256,7 @@ export default function Example() {
         </div>
         <div className="mx-auto mt-2 grid max-w-2xl grid-cols-1 gap-x-8  border-t border-gray-200 pt-10  lg:mx-0 lg:max-w-none lg:grid-cols-5">
           <article className="flex max-w-xl flex-col items-start justify-between col-span-2">
-            <div className="group relative">
+            <div className="group relative my-auto">
               <h3 className="mt-3 text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
                 Business to Business to Customer
               </h3>
@@ -297,7 +297,7 @@ export default function Example() {
           </article>{" "}
           <article className="flex max-w-xl flex-col items-start justify-between"></article>
           <article className="flex max-w-xl flex-col items-start justify-between col-span-2">
-            <div className="group relative">
+            <div className="group relative my-auto">
               <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
                 <p>
                   <span className="absolute inset-0" />
@@ -316,7 +316,7 @@ export default function Example() {
         </div>
         <div className="mx-auto mt-2 grid max-w-2xl grid-cols-1 gap-x-8  border-t border-gray-200 pt-10  lg:mx-0 lg:max-w-none lg:grid-cols-5">
           <article className="flex max-w-xl flex-col items-start justify-between col-span-2">
-            <div className="group relative">
+            <div className="group relative my-auto">
               <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
                 <p>
                   <span className="absolute inset-0" />
@@ -326,7 +326,7 @@ export default function Example() {
               <div className="flex items-center gap-x-4 text-xs">
                 <h1 className="text-gray-500">(M2C)</h1>
               </div>
-              <p className="mt-5  text-md leading-6 text-gray-800">
+              <p className="  text-md leading-6 text-gray-800">
                 ประเภทนี้คล้ายกับ D2C
                 แต่เน้นการยืนยันว่าสินค้าได้รับการผลิตและขายโดยตรงจากโรงงานผลิต
                 เป้าหมายของ M2C คือการลดต้นทุน ลดขั้นตอนการจำหน่าย
@@ -377,28 +377,30 @@ export default function Example() {
             </div>
 
             <p className="mt-5  text-lg leading-6 text-gray-900">
-              1.เปิดโอกาสให้ผู้บริโภคได้รับสินค้าที่มีคุณภาพ ราคาเหมาะสม
-              และสามารถเข้าถึงได้ทั่วโลก:
+              <b> 1.เปิดโอกาสให้ผู้บริโภคได้รับสินค้าที่มีคุณภาพราคาเหมาะสม
+              และสามารถเข้าถึงได้ทั่วโลก:</b>
+              
+              
               เน้นให้ผู้บริโภคสามารถซื้อสินค้าจากทั่วโลกได้โดยง่าย
               ในราคาที่เหมาะสม และมีคุณภาพ นั่นหมายความว่าโปรแกรม POS
               ของคุณจะต้องช่วยสนับสนุนการจัดการสินค้า การตั้งราคา
               และการจัดส่งที่มีประสิทธิภาพ
             </p>
             <p className="mt-5  text-lg leading-6 text-gray-900">
-              2.ส่งเสริมการเติบโตของผู้ผลิตให้เข้าถึงผู้บริโภคอย่างมีประสิทธิภาพ:
+             <b> 2.ส่งเสริมการเติบโตของผู้ผลิตให้เข้าถึงผู้บริโภคอย่างมีประสิทธิภาพ: </b>
               ต้องทำให้ผู้ผลิตสามารถเข้าถึงตลาดที่กว้างขวางขึ้น
               และส่งเสริมการจัดจำหน่ายสินค้าอย่างมีประสิทธิภาพ เช่น
               การจัดการสต็อก การจัดการการส่งสินค้า และการจัดการการสั่งซื้อ
             </p>
             <p className="mt-5  text-lg leading-6 text-gray-900">
-              3.ด้วยเทคโนโลยีที่ทันสมัย: ในยุคดิจิทัลนี้
+               <b>3.ด้วยเทคโนโลยีที่ทันสมัย:</b> ในยุคดิจิทัลนี้
               เทคโนโลยีทำให้ทุกอย่างเป็นไปได้
               เราจึงต้องใช้เทคโนโลยีทันสมัยที่มีประสิทธิภาพ เช่น การใช้งาน cloud
               computing การวิเคราะห์ข้อมูลขนาดใหญ่ และการจัดการฐานข้อมูลแบบ
               real-time
             </p>
             <p className="mt-5  text-lg leading-6 text-gray-900">
-              4.ทำให้ธุรกิจทั่วโลกสามารถแข่งขันได้ในยุคดิจิทัล:
+             <b> 4.ทำให้ธุรกิจทั่วโลกสามารถแข่งขันได้ในยุคดิจิทัล:</b>
               เราต้องการสร้างผลิตภัณฑ์ที่ช่วยให้ธุรกิจทั่วโลกสามารถแข่งขันในตลาดที่เปลี่ยนแปลงอย่างรวดเร็วนี้
               นั่นหมายความว่าโปรแกรม POS
               ของเราต้องสามารถปรับตัวได้ตามการเปลี่ยนแปลงของตลาด
