@@ -198,8 +198,8 @@ export default function Example() {
             Vission
           </Link>
         </div>
-        <div className="mx-auto mt-2 grid max-w-2xl grid-cols-1 gap-x-8  border-t border-gray-200 pt-10  lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          <article className="flex max-w-xl flex-col items-start justify-between">
+        <div className="mx-auto mt-2 grid max-w-xl grid-cols-1   border-t border-gray-200 pt-10  lg:mx-0 lg:max-w-none lg:grid-cols-5">
+          <article className="flex max-w-xl flex-col col-span-2 items-start justify-between">
             <div className="group relative mt-12">
               <h3 className="mt-3 text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
                 Business to Business
@@ -214,8 +214,8 @@ export default function Example() {
               </p>
             </div>
           </article>
-          <article className="flex max-w-xl flex-col items-start justify-between"></article>
-          <article className="flex max-w-xl flex-col items-start justify-between ">
+          <article className="w-12"></article>
+          <article className="flex max-w-xl flex-col col-span-2 items-start justify-between ">
             {" "}
             <Image
               className="absolute inset-0 object-cover shadow-xl mx-auto"
@@ -226,8 +226,8 @@ export default function Example() {
             />
           </article>
         </div>
-        <div className="mx-auto mt-2 grid max-w-2xl grid-cols-1 gap-x-8  border-t border-gray-200 pt-10  sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          <article className="flex max-w-xl flex-col items-start justify-between">
+        <div className="mx-auto mt-2 grid max-w-2xl grid-cols-1 gap-x-8  border-t border-gray-200 pt-10  sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+          <article className="flex max-w-xl flex-col items-start justify-between col-span-2">
             {" "}
             <Image
               className="absolute inset-0 object-cover shadow-xl mx-auto"
@@ -238,7 +238,7 @@ export default function Example() {
             />
           </article>
           <article className="flex max-w-xl flex-col items-start justify-between"></article>{" "}
-          <article className="flex max-w-xl flex-col items-start justify-between">
+          <article className="flex max-w-xl flex-col items-start justify-between col-span-2">
             <div className="group relative mt-12">
               <h3 className="mt-3 text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
                 Business to Customer
@@ -254,8 +254,8 @@ export default function Example() {
             </div>
           </article>
         </div>
-        <div className="mx-auto mt-2 grid max-w-2xl grid-cols-1 gap-x-8  border-t border-gray-200 pt-10  lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          <article className="flex max-w-xl flex-col items-start justify-between">
+        <div className="mx-auto mt-2 grid max-w-2xl grid-cols-1 gap-x-8  border-t border-gray-200 pt-10  lg:mx-0 lg:max-w-none lg:grid-cols-5">
+          <article className="flex max-w-xl flex-col items-start justify-between col-span-2">
             <div className="group relative">
               <h3 className="mt-3 text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
                 Business to Business to Customer
@@ -272,7 +272,7 @@ export default function Example() {
             </div>
           </article>
           <article className="flex max-w-xl flex-col items-start justify-between"></article>
-          <article className="flex max-w-xl flex-col items-start justify-between">
+          <article className="flex max-w-xl flex-col items-start justify-between col-span-2">
             {" "}
             <Image
               className="absolute inset-0 object-cover shadow-xl mx-auto"
@@ -283,9 +283,9 @@ export default function Example() {
             />
           </article>
         </div>
-        <div className="mx-auto mt-2 grid max-w-2xl grid-cols-1 gap-x-8  border-t border-gray-200 pt-10  lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        <div className="mx-auto mt-2 grid max-w-2xl grid-cols-1 gap-x-8  border-t border-gray-200 pt-10  lg:mx-0 lg:max-w-none lg:grid-cols-5">
      
-          <article className="flex max-w-xl flex-col items-start justify-between">
+          <article className="flex max-w-xl flex-col items-start justify-between col-span-2">
             {" "}
             <Image
               className="absolute inset-0 object-cover shadow-xl mx-auto"
@@ -296,7 +296,7 @@ export default function Example() {
             />
           </article>{" "}
           <article className="flex max-w-xl flex-col items-start justify-between"></article>
-          <article className="flex max-w-xl flex-col items-start justify-between">
+          <article className="flex max-w-xl flex-col items-start justify-between col-span-2">
             <div className="group relative">
               <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
                 <p>
@@ -314,8 +314,8 @@ export default function Example() {
             </div>
           </article>
         </div>
-        <div className="mx-auto mt-2 grid max-w-2xl grid-cols-1 gap-x-8  border-t border-gray-200 pt-10  lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          <article className="flex max-w-xl flex-col items-start justify-between">
+        <div className="mx-auto mt-2 grid max-w-2xl grid-cols-1 gap-x-8  border-t border-gray-200 pt-10  lg:mx-0 lg:max-w-none lg:grid-cols-5">
+          <article className="flex max-w-xl flex-col items-start justify-between col-span-2">
             <div className="group relative">
               <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
                 <p>
@@ -335,7 +335,7 @@ export default function Example() {
             </div>
           </article>
           <article className="flex max-w-xl flex-col items-start justify-between"></article>
-          <article className="flex max-w-xl flex-col items-start justify-between">
+          <article className="flex max-w-xl flex-col items-start justify-between col-span-2">
             {" "}
             <Image
               className="absolute inset-0 object-cover shadow-xl mx-auto"
