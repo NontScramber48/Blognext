@@ -301,7 +301,7 @@ export default function Example() {
               <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
                 <p>
                   <span className="absolute inset-0" />
-                  Direct to Consumer (D2C)
+                  Direct to Consumer 
                 </p>
               </h3>{" "}
               <div className="flex items-center gap-x-4 text-xs">
@@ -320,7 +320,7 @@ export default function Example() {
               <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
                 <p>
                   <span className="absolute inset-0" />
-                  Manufacturing to Consumer (M2C)
+                  Manufacturing to Consumer 
                 </p>
               </h3>{" "}
               <div className="flex items-center gap-x-4 text-xs">
