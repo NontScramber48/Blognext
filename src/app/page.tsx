@@ -128,7 +128,7 @@ export default function Example() {
               <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
                 <p>
                   <span className="absolute inset-0" />
-                  Direct to Consumer (D2C)
+                  Direct to Consumer 
                 </p>
               </h3>{" "}
               <div className="flex items-center gap-x-4 text-xs">
@@ -158,7 +158,7 @@ export default function Example() {
               <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
                 <p>
                   <span className="absolute inset-0" />
-                  Manufacturing to Consumer (M2C)
+                  Manufacturing to Consumer 
                 </p>
               </h3>{" "}
               <div className="flex items-center gap-x-4 text-xs">
@@ -222,7 +222,7 @@ export default function Example() {
               src="/assets/images/business/B2B.png"
               alt=""
               width={500}
-              height={300}
+              height={400}
             />
           </article>
         </div>
@@ -234,7 +234,7 @@ export default function Example() {
               src="/assets/images/business/B2C.png"
               alt=""
               width={500}
-              height={300}
+              height={400}
             />
           </article>
           <article className="flex max-w-xl flex-col items-start justify-between"></article>{" "}
@@ -279,7 +279,7 @@ export default function Example() {
               src="/assets/images/business/B2B2C.png"
               alt=""
               width={500}
-              height={300}
+              height={400}
             />
           </article>
         </div>
@@ -292,7 +292,7 @@ export default function Example() {
               src="/assets/images/business/D2C.png"
               alt=""
               width={500}
-              height={300}
+              height={400}
             />
           </article>{" "}
           <article className="flex max-w-xl flex-col items-start justify-between"></article>
@@ -342,18 +342,19 @@ export default function Example() {
               src="/assets/images/business/M2C.png"
               alt=""
               width={500}
-              height={300}
+              height={400}
             />
           </article>
         </div>
       </div>
+      <div id="vission"></div> 
       <div className="mx-auto max-w-7xl px-6  lg:px-8 mb-64">
+     
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl mt-64 font-bold tracking-tight text-gray-900 sm:text-4xl">
             วิสัยทัศน์
           </h2>
         </div>{" "}
-        <div id="vission">
           <h2 className="text-xl mt-16 mb-16   text-gray-700 sm:text-xl  indent-28">
             เราเชื่อว่าการจัดการธุรกิจที่มีประสิทธิภาพนั้นเริ่มต้นจากการใช้เทคโนโลยีที่ทันสมัยและเข้าถึงข้อมูลได้รวดเร็ว
             ผลิตภัณฑ์ซอฟต์แวร์ของเราถูกออกแบบมาเพื่อทำให้ธุรกิจของคุณเข้าถึงข้อมูลอย่างรวดเร็ว
@@ -365,7 +366,7 @@ export default function Example() {
             ด้วยเทคโนโลยีที่ทันสมัย
             และทำให้ธุรกิจทั่วโลกสามารถแข่งขันได้ในยุคดิจิทัล
           </h2>
-        </div>
+        
         <div className="mx-auto mt-2 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10  lg:mx-0 lg:max-w-none lg:grid-cols-1">
           <div className="group relative">
             <div className="mt-3 text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
