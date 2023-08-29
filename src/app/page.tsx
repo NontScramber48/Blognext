@@ -128,7 +128,7 @@ export default function Example() {
               <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
                 <p>
                   <span className="absolute inset-0" />
-                  Direct to Consumer 
+                  Direct to Consumer
                 </p>
               </h3>{" "}
               <div className="flex items-center gap-x-4 text-xs">
@@ -158,7 +158,7 @@ export default function Example() {
               <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
                 <p>
                   <span className="absolute inset-0" />
-                  Manufacturing to Consumer 
+                  Manufacturing to Consumer
                 </p>
               </h3>{" "}
               <div className="flex items-center gap-x-4 text-xs">
@@ -185,7 +185,7 @@ export default function Example() {
           </article>
         </div>
       </div>
-      {/* mobile */}
+      {/* mobile end start extra screen */}
       <div className="mx-auto max-w-7xl px-6 lg:px-8 hidden xl:block sm:block md:block 2xl:block">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -200,7 +200,7 @@ export default function Example() {
         </div>
         <div className="mx-auto mt-2 grid max-w-xl grid-cols-1   border-t border-gray-200 pt-10  lg:mx-0 lg:max-w-none lg:grid-cols-5">
           <article className="flex max-w-xl flex-col col-span-2 items-start justify-between">
-            <div className="group relative mt-12">
+            <div className="group relative my-auto">
               <h3 className="mt-3 text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
                 Business to Business
               </h3>
@@ -284,7 +284,6 @@ export default function Example() {
           </article>
         </div>
         <div className="mx-auto mt-2 grid max-w-2xl grid-cols-1 gap-x-8  border-t border-gray-200 pt-10  lg:mx-0 lg:max-w-none lg:grid-cols-5">
-     
           <article className="flex max-w-xl flex-col items-start justify-between col-span-2">
             {" "}
             <Image
@@ -301,7 +300,7 @@ export default function Example() {
               <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
                 <p>
                   <span className="absolute inset-0" />
-                  Direct to Consumer 
+                  Direct to Consumer
                 </p>
               </h3>{" "}
               <div className="flex items-center gap-x-4 text-xs">
@@ -320,7 +319,7 @@ export default function Example() {
               <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-800">
                 <p>
                   <span className="absolute inset-0" />
-                  Manufacturing to Consumer 
+                  Manufacturing to Consumer
                 </p>
               </h3>{" "}
               <div className="flex items-center gap-x-4 text-xs">
@@ -347,26 +346,24 @@ export default function Example() {
           </article>
         </div>
       </div>
-      <div id="vission"></div> 
+      <div id="vission"></div>
       <div className="mx-auto max-w-7xl px-6  lg:px-8 mb-64">
-     
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl mt-64 font-bold tracking-tight text-gray-900 sm:text-4xl">
             วิสัยทัศน์
           </h2>
         </div>{" "}
-          <h2 className="text-xl mt-16 mb-16   text-gray-700 sm:text-xl  indent-28">
-            เราเชื่อว่าการจัดการธุรกิจที่มีประสิทธิภาพนั้นเริ่มต้นจากการใช้เทคโนโลยีที่ทันสมัยและเข้าถึงข้อมูลได้รวดเร็ว
-            ผลิตภัณฑ์ซอฟต์แวร์ของเราถูกออกแบบมาเพื่อทำให้ธุรกิจของคุณเข้าถึงข้อมูลอย่างรวดเร็ว
-            วิเคราะห์ข้อมูลได้อย่างลึกซึ้ง
-            สนับสนุนในการทำงานของพนักงานให้ง่ายและมีประสิทธิภาพยิ่งขึ้นผ่านระบบที่เป็นมิตรและมีประสิทธิภาพ
-            และเราเปิดโอกาสให้ผู้บริโภคได้รับสินค้าที่มีคุณภาพ ราคาที่เหมาะสม
-            และสามารถเข้าถึงได้ทั่วโลก
-            พร้อมทั้งส่งเสริมการเติบโตของผู้ผลิตให้เข้าถึงผู้บริโภคอย่างมีประสิทธิภาพ
-            ด้วยเทคโนโลยีที่ทันสมัย
-            และทำให้ธุรกิจทั่วโลกสามารถแข่งขันได้ในยุคดิจิทัล
-          </h2>
-        
+        <h2 className="text-xl mt-16 mb-16   text-gray-700 sm:text-xl  indent-28">
+          เราเชื่อว่าการจัดการธุรกิจที่มีประสิทธิภาพนั้นเริ่มต้นจากการใช้เทคโนโลยีที่ทันสมัยและเข้าถึงข้อมูลได้รวดเร็ว
+          ผลิตภัณฑ์ซอฟต์แวร์ของเราถูกออกแบบมาเพื่อทำให้ธุรกิจของคุณเข้าถึงข้อมูลอย่างรวดเร็ว
+          วิเคราะห์ข้อมูลได้อย่างลึกซึ้ง
+          สนับสนุนในการทำงานของพนักงานให้ง่ายและมีประสิทธิภาพยิ่งขึ้นผ่านระบบที่เป็นมิตรและมีประสิทธิภาพ
+          และเราเปิดโอกาสให้ผู้บริโภคได้รับสินค้าที่มีคุณภาพ ราคาที่เหมาะสม
+          และสามารถเข้าถึงได้ทั่วโลก
+          พร้อมทั้งส่งเสริมการเติบโตของผู้ผลิตให้เข้าถึงผู้บริโภคอย่างมีประสิทธิภาพ
+          ด้วยเทคโนโลยีที่ทันสมัย
+          และทำให้ธุรกิจทั่วโลกสามารถแข่งขันได้ในยุคดิจิทัล
+        </h2>
         <div className="mx-auto mt-2 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10  lg:mx-0 lg:max-w-none lg:grid-cols-1">
           <div className="group relative">
             <div className="mt-3 text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
@@ -377,30 +374,34 @@ export default function Example() {
             </div>
 
             <p className="mt-5  text-lg leading-6 text-gray-900">
-              <b> 1.เปิดโอกาสให้ผู้บริโภคได้รับสินค้าที่มีคุณภาพราคาเหมาะสม
-              และสามารถเข้าถึงได้ทั่วโลก:</b>
-              
-              
+              <b>
+                {" "}
+                1.เปิดโอกาสให้ผู้บริโภคได้รับสินค้าที่มีคุณภาพราคาเหมาะสม
+                และสามารถเข้าถึงได้ทั่วโลก:
+              </b>
               เน้นให้ผู้บริโภคสามารถซื้อสินค้าจากทั่วโลกได้โดยง่าย
               ในราคาที่เหมาะสม และมีคุณภาพ นั่นหมายความว่าโปรแกรม POS
               ของคุณจะต้องช่วยสนับสนุนการจัดการสินค้า การตั้งราคา
               และการจัดส่งที่มีประสิทธิภาพ
             </p>
             <p className="mt-5  text-lg leading-6 text-gray-900">
-             <b> 2.ส่งเสริมการเติบโตของผู้ผลิตให้เข้าถึงผู้บริโภคอย่างมีประสิทธิภาพ: </b>
+              <b>
+                {" "}
+                2.ส่งเสริมการเติบโตของผู้ผลิตให้เข้าถึงผู้บริโภคอย่างมีประสิทธิภาพ:{" "}
+              </b>
               ต้องทำให้ผู้ผลิตสามารถเข้าถึงตลาดที่กว้างขวางขึ้น
               และส่งเสริมการจัดจำหน่ายสินค้าอย่างมีประสิทธิภาพ เช่น
               การจัดการสต็อก การจัดการการส่งสินค้า และการจัดการการสั่งซื้อ
             </p>
             <p className="mt-5  text-lg leading-6 text-gray-900">
-               <b>3.ด้วยเทคโนโลยีที่ทันสมัย:</b> ในยุคดิจิทัลนี้
+              <b>3.ด้วยเทคโนโลยีที่ทันสมัย:</b> ในยุคดิจิทัลนี้
               เทคโนโลยีทำให้ทุกอย่างเป็นไปได้
               เราจึงต้องใช้เทคโนโลยีทันสมัยที่มีประสิทธิภาพ เช่น การใช้งาน cloud
               computing การวิเคราะห์ข้อมูลขนาดใหญ่ และการจัดการฐานข้อมูลแบบ
               real-time
             </p>
             <p className="mt-5  text-lg leading-6 text-gray-900">
-             <b> 4.ทำให้ธุรกิจทั่วโลกสามารถแข่งขันได้ในยุคดิจิทัล:</b>
+              <b> 4.ทำให้ธุรกิจทั่วโลกสามารถแข่งขันได้ในยุคดิจิทัล:</b>
               เราต้องการสร้างผลิตภัณฑ์ที่ช่วยให้ธุรกิจทั่วโลกสามารถแข่งขันในตลาดที่เปลี่ยนแปลงอย่างรวดเร็วนี้
               นั่นหมายความว่าโปรแกรม POS
               ของเราต้องสามารถปรับตัวได้ตามการเปลี่ยนแปลงของตลาด
